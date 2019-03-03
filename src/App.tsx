@@ -1,10 +1,13 @@
 import * as React from 'react';
+import { Text, View } from 'react-native';
 
 const App: React.FC = () => {
   return (
-    <div>
-      App
-    </div>
+    <View>
+      <Text>
+        React Native Web App
+      </Text>
+    </View>
   );
 }
 
